@@ -6,7 +6,7 @@
     </head>
 
     <body>
-        <form method="GET" action="https://baidu.com/123.php">
+        <form method="GET" action="link address">
             <!-- 1. 输入框 -->
             <!-- 
                 提交过程,两个注意点:
@@ -34,12 +34,37 @@
             <p>
                 submit:<input type="submit">
             </p>
+
             <!-- 二.单选框 -->
             <strong>喜欢的明星</strong> <br>
             1. 胡歌<input type="radio" name="star" value="胡歌"> <br>
             2. 梁家辉<input type="radio" name="star" value="梁家辉"> <br>
             3. 陈道明<input type="radio" name="star" value="陈道明"> <br>
             <input type="submit">
+
+            <!-- 复选框 -->
+            <strong>your favorite fruits</strong>   <br>
+            1. apple <input type="checkbox" name="fruits" value="apple">    <br>
+            2. orange <input type="checkbox" name="fruits" value="orange">  <br>
+            3. banana <input type="checkbox" name="fruits" value="banana">   <br>
+            <input type="submit">
+
+            <!-- 默认选项 -->
+            <h1>choose your sex!!!</h1>
+            1. male <input type="radio" name="sex" value="male" checked="checked"   <br>
+            2. female <input type="radio" name="sex" value="female">                <br>
+            <input type="submit">
+
+            <!-- select component -->
+            <h1>province</h1>
+            <select name="province" id="">
+                <option value="beijing">beijing</option>
+                <option value="shijiazhuang">shijiazhuang</option>
+                <option value="tianjin">tianjin</option>
+                <option value="shanghai">shanghai</option>
+                <option value="chengdu">chengdu</option>
+                <input type="submit">
+            </select>
         </form>
     </body>
 </html>
