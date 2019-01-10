@@ -1,16 +1,27 @@
-# cascading style sheet 层叠样式表
+# css
 
-## css引入
+1. 什么意思?
 
-* 行间样式
+> cascading style sheet(css)层叠样式表
 
-* 页面级css
+2. css引入
 
-  ```html
-  <style type="text/css">
-  
-  </style>
-  ```
+> * 行间样式
+>
+> ```css
+> <div style="
+> 	width:100px;
+> 	height:100px;
+> 	background-color:red;">
+> ```
+>
+> * 页面级css
+
+```html
+<style type="text/css">
+
+</style>
+```
 
 * 外部引入css
 

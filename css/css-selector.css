@@ -1,0 +1,48 @@
+/* css selector */
+#first {
+    width: 100px;
+    height:100px;
+    /* display: block; */
+    background-color: red;
+    /* line-height: 100px; */
+}
+/*          id selector 一对一 
+            class selector 多对多   多个选择器对应多个div
+            */
+
+
+
+.demo1{
+    color:#f40;
+}
+
+/* 标签选择器 */
+div{
+    font-size: 1rem;
+}
+
+span{
+    font-size: 2rem;
+    color: #f40;
+    font-weight: bold;
+}
+
+*{
+    /* background-color: green; */
+}
+
+/* 属性选择器 */
+/* 选择所有属性为id的标记 */
+[id]
+{
+    background-color: #f40;
+}
+[id="second"]{
+    background-color: black;
+}
+
+.demo {
+    height: 100px;
+    width: 100px;
+    background-color: green;
+}

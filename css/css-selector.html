@@ -1,0 +1,61 @@
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>css selector</title>
+        <link rel="stylesheet" href="css-selector.css">
+    </head>
+    <body>
+        <!-- html 选择器
+        1. id选择器
+        2. class选择器 
+        3. 标签选择器
+        -->
+        <!-- id selector -->
+        <div id="first">
+            this is div id first
+        </div>
+
+        <!-- class selector -->
+        <div class="demo demo1">
+            this is div class demo 
+        </div>
+
+        <!-- 标签选择器 -->
+        <div>
+            this is tab selector
+        </div>
+
+        <span>123</span>
+        <div>
+            <span>234</span>
+            说明都起作用
+        </div>
+
+        <!-- 通配符选择器 -->
+        
+        <!-- 属性选择器(比较特殊的一种选择器) -->
+        
+        <!-- 选择器的优先问题 -->
+        <!-- 
+            !important>行间样式>id选择器>class选择器|属性选择器>标签选择器>通配符选择器
+            纹身>身份证>背心>class>任意
+            其中需要注意的是:
+            属性选择器和class选择器同级,
+            最终的有效结果取决于其在css文档中所定义的先后顺序,
+            最后定义的为文本标记的有效值,与其在div中的申明顺序无关
+         -->
+        <div class="demo" id="second">属性选择器优先级测试</div>
+        <div id="second" class="demo">属性选择器优先级测试</div>
+
+         <!-- 选择器的权重问题 -->
+         <!-- css每个选择器在内核中都有具体的权重值 -->
+        <!-- 256进制
+            !important              infinity(正无穷)
+            行间样式                    1000
+            id选择器                    100
+            class选择器|伪类选择器         10
+            标签选择器|伪元素               1
+            通配符选择器                   0                     1
+         -->
+    </body>
+</html>
