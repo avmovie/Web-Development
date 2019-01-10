@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title>anchor</title>
+    </head>
+    <body>
+        <!-- a标签的作用:
+        1. 超链接
+        2. 锚
+        3. 打电话
+        4. 发邮件
+        5. 协议限定符
+     -->
+        <!-- href = hypertext reference 超文本引用 -->
+        <a href="http://baidu.com">百度一下</a>
+
+            <!-- a标签可疑包裹任何东西,.包括图片 -->
+        <a href="http://baidu.com">
+            <img src="BadlandsBday_EN-AU10299777329_1920x1080.jpg" style="height:200px" alt="this is a test image" title="picture">
+        </a><br>
+            <!-- 在新标签页中打开 -->
+        <a href="http://google.com" style="width:500px;height:500px;background-color:red;display: block" target="_blank">
+        </a>
+        <br>
+
+        <!-- 锚点 -->
+        <div id="demo1" style="width:200px;height:200px;background-color:red">demo1</div> <br>
+        <div id="demo2" style="width:200px;height:200px;background-color:green">demo2</div> <br>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <a style="display:block;position:fixed;height:50px;line-height:50px; bottom:150px;right:100px;border:1px solid black" href="#demo2"> find demo2 </a>
+        <a style="display:block;position:fixed;height:50px;line-height:50px; bottom:200px;right:100px;border:1px solid black" href="#demo1"> find demo1 </a>
+
+        <!-- 打电话 -->
+        <a href="tel:15528256731" style="font-size:2rem">给姜绘文打电话</a>
+        
+        <!-- 发邮件 -->
+        <a href="mailto:1497911983@qq.com">给姜绘文发邮件</a>
+          
+        <!-- 协议限定符 -->
+        <a href="javascript:while(1){alert('让你手欠')}">协议限定符</a>
+        </body>
+        </html>

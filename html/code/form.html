@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <title>
+            form表单
+        </title>
+    </head>
+
+    <body>
+        <form method="GET" action="https://baidu.com/123.php">
+            <!-- 1. 输入框 -->
+            <!-- 
+                提交过程,两个注意点:
+                1. 数据名称
+                2. 数据值
+             -->
+            <p>
+                username:<input type="text" name="username" value='请输入用户名' style="color:#999"
+                onfocus="if(this.value=='请输入用户名')
+                {
+                    this.value='';
+                    this.style.color='#424242';
+
+                }"
+                onblur="if(this.value=='')
+                {
+                    this.value='请输入用户名';
+                    this.style.color='#999';
+                }"
+                >
+            </p>
+            <p>
+                password:<input type="password" name="password">
+            </p>
+            <p>
+                submit:<input type="submit">
+            </p>
+            <!-- 二.单选框 -->
+            <strong>喜欢的明星</strong> <br>
+            1. 胡歌<input type="radio" name="star" value="胡歌"> <br>
+            2. 梁家辉<input type="radio" name="star" value="梁家辉"> <br>
+            3. 陈道明<input type="radio" name="star" value="陈道明"> <br>
+            <input type="submit">
+        </form>
+    </body>
+</html>

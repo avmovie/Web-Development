@@ -5,14 +5,22 @@
             <!-- 2. 绝对地址 -->
             <!-- 3. 相对地址 -->
         <img src="图片地址" alt="alternative(图片占位符)" title="图片提示符">
-       <!-- 在图片显示不出来的时候所显示的文字 -->
-       <!-- alt==alternative 图片占位符 -->
-      <!-- title==图片提示符 -->
+        <img src="BadlandsBday_EN-AU10299777329_1920x1080.jpg" style="width: 200px;" alt="本地图片">
+        <!-- 在图片显示不出来的时候所显示的文字 -->
+        <!-- alt==alternative 图片占位符 -->
+        <!-- title==图片提示符 -->
 
-      <a href="http://baidu.com">百度一下</a>
+        <!-- html中的a标签 -->
             <!-- href = hypertext reference 超文本引用 -->
-        <div style=""></div>
-        <div></div>
+        <a href="http://baidu.com">百度一下</a>
+
+            <!-- a标签可疑包裹任何东西,.包括图片 -->
+        <a href="http://baidu.com">
+            <img src="BadlandsBday_EN-AU10299777329_1920x1080.jpg" style="height:200px" alt="this is a test image" title="picture">
+        </a><br>
+            <!-- 在新标签页中打开 -->
+        <a href="http://google.com" style="width:500px;height:500px;background-color:red;display: block" target="_blank" >
         
+        </a>
     </body>
 </html> 
