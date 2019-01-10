@@ -6,12 +6,10 @@
     background-color: red;
     /* line-height: 100px; */
 }
-/*          id selector 一对一 
-            class selector 多对多   多个选择器对应多个div
-            */
-
-
-
+    /*  id selector 一对一 
+        class selector 多对多   多个选择器对应多个div
+    */
+    
 .demo1{
     color:#f40;
 }
