@@ -19,6 +19,24 @@ div > em{
 
 /* 并列选择器 */
 /*用多个并列条件选中一个元素,并且不加空格,同时添加任意条件进行筛选 */
+/* 并列选择器的顺序:标签选择器>class选择器>类选择器>id选择器 */
 div.demo{
     background-color: red;
 }
+
+/* 复杂选择器知识点: */
+/*  1. 权重(选择元素的权重) 
+    2. 同一行选择器的权重值相加,值越大,选择的优先级越高
+    3. 权重值相同的样式区,后面的样式会覆盖前面的样式,为最终有效样式*/
+div p
+{
+    background-color: red;
+}
+
+div.classDiv p.classP
+{
+    background-color: green!important;
+}
+
+/* 并列选择器的使用示例 */
+
