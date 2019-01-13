@@ -33,10 +33,34 @@ div p
     background-color: red;
 }
 
-div.classDiv p.classP
+div.classDiv p#idP
 {
-    background-color: green!important;
+    background-color: green;
+    /* !important */
 }
 
-/* 并列选择器的使用示例 */
+div#idDiv p.classP
+{
+    background-color: black;
+}
+/* 当前后两个选择器的权重值一样时,后面的选择器会覆盖前面的选择器 */
+/* 数学中的无穷大是无法比较大小的,但是编程语言中的无穷大小是可以比较大小的 */
+
+/* 分组选择器 */
+/*  单独的选择器之间用逗号隔开,一般情况下,为了读写方便,需要进行换行
+    其主要作用是减少代码的冗余度 */
+strong,
+em,
+span
+{
+    background-color: black;
+
+    /* 设置字体的大小是设置字体的高 */
+    font-size: 12px;
+    /* 设置字体的粗细
+    lighter,normal,bold,bolder */
+    /* 数字设置字体的粗细:100,200,300,400----900,没有单位 */
+    font-weight: bold;
+
+}
 
