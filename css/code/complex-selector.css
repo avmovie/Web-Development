@@ -42,6 +42,7 @@ div.classDiv p#idP
 div#idDiv p.classP
 {
     background-color: black;
+    font
 }
 /* 当前后两个选择器的权重值一样时,后面的选择器会覆盖前面的选择器 */
 /* 数学中的无穷大是无法比较大小的,但是编程语言中的无穷大小是可以比较大小的 */
