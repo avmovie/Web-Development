@@ -20,3 +20,11 @@
     height: 50px;
     background-color: black;
 }
+span{
+    /* position: absolute; */
+    display: block;
+    float: left;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}

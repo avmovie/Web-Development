@@ -53,3 +53,10 @@ body{
     height: 10px;
     background-color: yellow;
 }
+span{
+    /* position: absolute; */
+    /* float: left; */
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
